@@ -1,6 +1,5 @@
 
 body{
-    width: 1024px;
     margin: 0 auto 0 auto;
 }
 h1, h2, h3, h4{
@@ -16,7 +15,13 @@ p, a{
 /* Begin edit for header and included elements */
 .header{
     width: 100%;
+    margin: 0 auto;
     height: 120px;
+    border-bottom: 4px solid #000;
+}
+.topbar{
+    width: 960px;
+    margin: 0 auto;
 }
 .name, .nav{
     text-align: center;
@@ -44,17 +49,21 @@ p, a{
     margin: 0 15px;
     font-size: 20px;
 }
+.nav a{
+    text-decoration: none;
+}
 /* End edit for Header */
 
 
 /* Begin edit for Main and included elements*/
 .main{
-    width: 100%;
+    width: 960px;
+    margin: 0px auto;
 }
 .main-content{
     float: left;
-    width: 50%;
-    height: 550px;
+    width: 650px;
+    height: 600px;
 }
 .content-title{
     height: 100px;
@@ -62,41 +71,62 @@ p, a{
 }
 .content-title h2{
     font-size: 30px;
-    text-align: center;
+    color: #4aaaa5;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 .image{
+    position: relative;
+    border: 1px solid red;
     float: left;
     margin: 15px;
-    height: 150px;
 }
 .content{
-    margin: 10px;
-    height: 400px;
+    margin: 30px 20px 0px 20px;
+    height: 335px;
 }
 .content p{
     font-size: 18px;
-    margin: 10px;
-    line-height: 20px;
+    margin: 15px;
 }
-
+.para1{
+    border: 1px solid red;
+}
+.para2{
+    border: 1px solid red;
+}
 .connect{
     text-align: center;
     float: left;
-    width: 50%;
-    height: 150px;
+    width: 270px;
+    height: 200px;
+    margin-left: 20px;
 }
 .connect-title, .links{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
 }
 .connect-title{
-    height: 50px;
+    height: 80px;
+    border-bottom: 2px solid #000;
+}
+.connect-title h3{
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .links{
     height: 100px;
+}
+.links ul{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.links li{
+    display: inline;
 }
 
 /* End edit for Main */
@@ -106,7 +136,14 @@ p, a{
 .footer{
     width: 100%;
     height: 150px;
+    border-top: 4px solid #000;
 
+}
+.footer p{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* End edit for Footer */
