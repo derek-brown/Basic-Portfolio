@@ -3,11 +3,17 @@ body{
     width: 1024px;
     margin: 0 auto 0 auto;
 }
+h1, h2, h3, h4{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+p, a{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 .container{
     width: 100%;
 }
 
-/*begins edit for header and elements inside */
+/* Begin edit for header and included elements */
 .header{
     width: 100%;
     height: 120px;
@@ -18,15 +24,19 @@ body{
     float: left;
     height: 120px;
 }
-.name h1, .nav ul{
+.nav ul{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 .name h1{
     font-size: 50px;
-    background-color: teal;
-    width: 80%
+    background-color: #4aaaa5;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    padding: 35px 0;
 }
 .nav li{
     display: inline;
@@ -35,6 +45,66 @@ body{
     font-size: 20px;
 }
 /* End edit for Header */
+
+
+/* Begin edit for Main and included elements*/
+.main{
+    width: 100%;
+}
+.main-content{
+    float: left;
+    width: 50%;
+    height: 600px;
+}
+.content-title{
+    height: 100px;
+}
+.content-title h2{
+    font-size: 30px;
+}
+.image{
+    float: left;
+    margin: 10px;
+    height: 150px;
+}
+.content{
+    margin: 10px;
+    height: 450px;
+}
+.content p{
+    font-size: 18px;
+    margin: 10px;
+    line-height: 20px;
+}
+
+.connect{
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 150px;
+}
+.connect-title, .links{
+    width: 50%;
+    margin: 0 auto;
+}
+.connect-title{
+    height: 50px;
+}
+.links{
+    height: 100px;
+}
+
+/* End edit for Main */
+
+/* Begin edit for Footer */
+
+.footer{
+    width: 100%;
+    height: 150px;
+
+}
+
+/* End edit for Footer */
 
 
 /* Clearfix class to resolve float issues */
