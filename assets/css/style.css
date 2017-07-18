@@ -45,11 +45,15 @@ p, a{
 .nav li{
     display: inline;
     list-style-type: none;
-    margin: 0 15px;
+    padding: 0 15px;
     font-size: 20px;
 }
 .nav a{
     text-decoration: none;
+}
+#portfolio{
+    border-right: 2px solid #eee;
+    border-left:  2px solid #eee;
 }
 /* End edit for Header */
 
@@ -71,6 +75,13 @@ p, a{
     background-color: #fff;
     margin: 20px 0;
 }
+.main-content-portfolio{
+    float: left;
+    width: 650px;
+    height: 750px;
+    background-color: #fff;
+    margin: 20px 0;
+}
 .content-title{
     height: 100px;
     margin: 0 35px;
@@ -83,14 +94,32 @@ p, a{
     top: 50%;
     transform: translateY(-50%);
 }
-.image{
-    position: relative;
+.image, .image3{
     float: left;
     margin: 15px;
+}
+.image2, .image4{
+    float: right;
+    margin: 15px;
+}
+.image5{
+    margin: 15px;
+}
+.image-portfolio{
+    margin: 15px;
+    width: 210px;
+    height: 158px;
+    color: white;
+    background-color: #4aaaa5;
+    background-image: url('../images/Portfolio Pic Smaller.jpg');
 }
 .content{
     margin: 30px 20px 0px 20px;
     height: 335px;
+}
+.content-portfolio{
+    margin: 30px 20px 0px 20px;
+    height: 600px;
 }
 .content p{
     font-size: 18px;
@@ -99,7 +128,6 @@ p, a{
 .para1{
     padding-top: 1px;
 }
-
 .connect{
     text-align: center;
     float: left;
@@ -152,6 +180,26 @@ p, a{
 
 /* End edit for Footer */
 
+/* Begin edit for Conact Page */
+
+#name, #email{
+    margin: 5px;
+    width: 95%;
+}
+textarea{
+    margin: 5px;
+    width: 95%;
+}
+.form h3{
+    margin: 5px;
+}
+#submit{
+    margin: 5px;
+    padding: 8px;
+    width: 80px;
+    background-color: #4aaaa5;
+    color: white;
+}
 
 /* Clearfix class to resolve float issues */
 .clearfix::after{

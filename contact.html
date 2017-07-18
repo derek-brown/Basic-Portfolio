@@ -15,12 +15,12 @@
     <div class="header"> <!-- opens header -->
         <div class="topbar">
         <div class="name">
-            <h1>Contact</h1>
+            <h1>Derek E. Brown</h1>
         </div>
         <div class="nav">
             <ul>
                 <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+                <li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -31,20 +31,18 @@
 
         <div class="main-content"> <!--opens main content-->
             <div class="content-title">
-                <h2>About Me</h2>
+                <h2>Contact</h2>
             </div>
                 <div class="content"> <!--opens content-->
-                    <div class="image">
-                        <img src="assets/images/Portfolio Pic Smaller.jpg" alt="Portfolio Picture">
-                    </div>
-                        <div class="para1">
-                        <p>Hello! My name is Derek Ethan Brown. I am a up and coming web developer with experience in HMTL, CSS, Javascript, and JQuery. I am in the process of fine-tuning my craft through the University of Central Florida (UCF) Full Stack Coding Boot Camp. My goal is to be proficient at both front end and back end developments of the web.
-                        </p>
-                        </div>
-                        <div class="para2">
-                        <p>In 2014, I graduated with a degree in Technical Communications and a minor in writing and rhetoric. Since college, I have worked as a Multi-Line insurance sales representative until present. It is my goal to transistion my career from insurance to be a full time Full Stack Developer. Much of my work now is self taught through mediums as Udacity and Code School.
-                        </p>
-                        </div>
+                    <div class="form"> <!--opens form-->
+                        <h3>Name</h3>
+                        <input id="name" type="text" name="name"><br>
+                        <h3>Email</h3>
+                        <input id="email" type="text" name="email"><br>
+                        <h3>Message</h3>
+                        <textarea name="textarea" rows="10" cols="50">Message here!</textarea><br>
+                        <input id="submit" type="submit" value="Submit"><br>
+                    </div> <!--closes form-->
                 </div> <!--closes content-->
         </div> <!--closes main-content-->
 
