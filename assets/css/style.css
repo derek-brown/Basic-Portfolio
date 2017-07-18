@@ -94,7 +94,8 @@ p, a{
     top: 50%;
     transform: translateY(-50%);
 }
-.image, .image3{
+.image, .image3,
+.image5{
     float: left;
     margin: 15px;
 }
@@ -105,12 +106,24 @@ p, a{
 .image5{
     margin: 15px;
 }
-.image-portfolio{
+.image, .image2,
+.image3, .image4,
+.image5{
     margin: 15px;
     width: 210px;
     height: 158px;
-    color: white;
     background-image: url('../images/Portfolio Pic Smaller.jpg');
+}
+.image h3, .image2 h3,
+.image3 h3, .image4 h3,
+.image5 h3{
+    color: white;
+    position: relative;
+    top: 65%;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #4aaaa5;
 }
 .content{
     margin: 30px 20px 0px 20px;
